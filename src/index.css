@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+
+#logoImage {
+    max-width: 50%;
+}
+
+#labelForm {
+    font-family: 'Caveat', cursive;
+}
+
+#showsResultsImg {
+    height: 35rem;
+    object-fit: cover 
+}
+
+#imgShow {
+    max-width: 70%;
+}
+
+#episodeURL {
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+}
+
+#btn-error {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#btn-error > #btn-error-home {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    text-decoration: none;
+    border: 1px solid #dc3545;
+    padding: 10px;
+    color: white;
+    font-size: 24px;
+
+}
+
+#btn-error > #btn-error-home:hover {
+    background-color: #dc3545;;
+}
